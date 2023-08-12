@@ -1,0 +1,6 @@
+console.log(globalThis); //Es una variable global en toda la aplicación
+console.log(window);     //En el navegador apunta a Window
+console.log(global);     //En nodejs apunta a global.
+
+// console es una propiedad de la variable global ---> globalThis
+// Fetch, Promise y cualquier cosa que parece que sale de la nada sale de globalThis
