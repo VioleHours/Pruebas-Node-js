@@ -11,6 +11,6 @@ fs.readFile('./index.txt', 'utf-8', (err, text) => { //acepta un callback y lo e
 console.log('Haciendo cosas mientras leo el texto...');
 
 console.log('Leyendo el segundo archivo...')
-fs.readFileSync('./archivo.txt', 'utf-8', (err, texto) => {
+fs.readFile('./archivo.txt', 'utf-8', (err, texto) => {
     console.log('segundo texto:', texto);
 });
